@@ -22,7 +22,7 @@ export default function DiscordButton () {
     `
     
     return (
-        <Button href={'https://discord.com/invite/zdzBtd2xWj'}>
+        <Button target={'_blank'} rel={"noreferrer"} href={'https://discord.com/invite/zdzBtd2xWj'}>
             <Image src={discordLogo} alt=''/>
         </Button>
     )

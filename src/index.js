@@ -1,13 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import Intro from "./intro/Intro.js";
-import Header from "./header/Header.js";
+
+import App from "./App.js";
 
 ReactDOM.render(
     <div>
-        <Header />
-        <Intro />
+        <App />
     </div>,
     document.getElementById("root")
 );

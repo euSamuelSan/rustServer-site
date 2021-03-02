@@ -56,9 +56,6 @@ export default function Rules() {
                     Informações úteis
                 </Subtitle>
                 <Text style={{ textAlign: "right" }}>
-                    -Nas primeiras 2 horas do wipe, o craft de itens High Tier
-                    estarão bloqueados
-                    <br />
                     -Apenas lembrando: os Kits do VIP NÃO dão nada vantajoso
                     para o jogador, apenas itens de DLC que não são recicláveis
                     <br />

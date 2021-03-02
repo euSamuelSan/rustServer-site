@@ -48,6 +48,7 @@ export default function Intro() {
 
     const Text = styled.p`
         font-family: Undeka;
+        font-size: 24px;
     `;
     return (
         <View style={{ backgroundImage: `url(${background1})` }}>

@@ -45,8 +45,6 @@ export default function About() {
                     gather,
                     <br />
                     ou seja, o bom e velho Rust Raíz!
-                    <br />O limite de clans é de 5 players, e alianças são
-                    permitidas
                 </Presentation>
                 <Resources>
                     Contamos com um servidor hospedado no Brasil, com ótimo

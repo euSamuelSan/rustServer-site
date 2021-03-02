@@ -5,3 +5,12 @@ body {
     text-align: center;
     margin: 0;
 }
+
+@font-face {
+    font-family: "Rust";
+    src: local("Rust"), url(./assets/fonts/Rust.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Undeka";
+    src: local("Undeka"), url(./assets/fonts/Undeka.woff) format("woff");
+}

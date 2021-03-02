@@ -13,7 +13,7 @@ export default function DiscordButton () {
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 1px 1px 5px #444;
+        text-shadow 1px 1px 20px rgba(0,0,0,0.5);
     `;
 
     const Image = styled.img`^
@@ -22,7 +22,7 @@ export default function DiscordButton () {
     `
     
     return (
-        <Button target={'_blank'} rel={"noreferrer"} href={'https://discord.com/invite/zdzBtd2xWj'}>
+        <Button target={'_blank'} rel={"noreferrer"} href={'https://bit.ly/disceloperdido'}>
             <Image src={discordLogo} alt=''/>
         </Button>
     )

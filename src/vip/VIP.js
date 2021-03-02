@@ -1,11 +1,13 @@
 import React from "react";
 import styled from "styled-components";
+import "./vip.css";
 
 export default function VIP() {
     const View = styled.div`
         justify-content: center;
         padding: 40px;
-        border: 2px solid yellow;
+        padding-top: 80px;
+        padding-bottom: 80px;
     `;
 
     const Title = styled.h1`
@@ -16,28 +18,28 @@ export default function VIP() {
     const LeftTitle = styled.h2`
         font-family: Undeka;
         font-weight: 100;
-        text-align: left;
-        padding-left: 50px;
+        text-align: right;
+        padding-right: 50px;
     `;
 
     const LeftText = styled.p`
         font-family: Undeka;
-        text-align: left;
-        padding-left: 50px;
+        text-align: right;
+        padding-right: 50px;
         font-size: 24px;
     `;
 
     const RightTitle = styled.h2`
         font-family: Undeka;
         font-weight: 100;
-        text-align: right;
-        padding-right: 50px;
+        text-align: left;
+        padding-left: 50px;
     `;
 
     const RightText = styled.p`
         font-family: Undeka;
-        text-align: right;
-        padding-right: 50px;
+        text-align: left;
+        padding-left: 50px;
         font-size: 24px;
     `;
 

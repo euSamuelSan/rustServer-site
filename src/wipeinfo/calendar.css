@@ -94,7 +94,7 @@
     background: #121212;
 }
 .react-calendar__month-view__days__day--neighboringMonth {
-    color: #757575;
+    color: #bebebe;
     background: #222222;
 }
 .react-calendar__tile:disabled {
@@ -105,7 +105,7 @@
     background-color: #666666;
 }
 .react-calendar__tile--now {
-    background: #ed3f25;
+    background: #544d47;
 }
 .react-calendar__tile--now:enabled:hover,
 .react-calendar__tile--now:enabled:focus {
@@ -131,13 +131,13 @@
 }
 
 .forcedWipe {
-    background: #81d742;
+    background: #ed3f25;
 }
 
 .mapWipe {
-    background: #81d742;
+    background: #ed3f25;
 }
 
 .fullWipe {
-    background: #81d742;
+    background: #ed3f25;
 }

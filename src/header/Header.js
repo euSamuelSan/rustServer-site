@@ -3,7 +3,7 @@ import styled from "styled-components";
 import rustLogo from "../assets/images/rustLogo.png";
 import facepunch_logo from "../assets/images/facepunch_logo.svg";
 
-export default function Header() {
+export default function Header({ handleOnClick, refs }) {
     const View = styled.header`
         display: flex;
         justify-content: flex-end;
@@ -43,16 +43,20 @@ export default function Header() {
 
     return (
         <View>
-            <ImageContainer>
+            <ImageContainer onClick={() => handleOnClick(refs.intro)}>
                 <Image src={rustLogo} />
                 <Image src={facepunch_logo} />
             </ImageContainer>
-            <Button onClick={() => {}}>Sobre</Button>
-            <Button onClick={() => {}}>Quem somos</Button>
-            <Button onClick={() => {}}>VIP</Button>
-            <Button onClick={() => {}}>Calendário Wipe</Button>
-            <Button onClick={() => {}}>Regras</Button>
-            <Button onClick={() => {}}>Contato</Button>
+            <Button onClick={() => handleOnClick(refs.about)}>Sobre</Button>
+            <Button onClick={() => handleOnClick(refs.whoami)}>
+                Quem somos
+            </Button>
+            <Button onClick={() => handleOnClick(refs.vip)}>VIP</Button>
+            <Button onClick={() => handleOnClick(refs.wipeInfo)}>
+                Calendário Wipe
+            </Button>
+            <Button onClick={() => handleOnClick(refs.rules)}>Regras</Button>
+            <Button onClick={() => handleOnClick(refs.contact)}>Contato</Button>
         </View>
     );
 }

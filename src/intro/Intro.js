@@ -23,20 +23,20 @@ export default function Intro() {
     const Logo = styled.img`
         width: 72px;
         margin-right: 10px;
-        box-shadow: 1px 1px 10px #777;
+        text-shadow 1px 1px 20px rgba(0,0,0,0.5);
     `;
 
     const Title = styled.h1`
         font-family: Rust;
         letter-spacing: 5px;
         font-size: 72px;
-        text-shadow 1px 1px 10px #777;
+        text-shadow 1px 1px 20px rgba(0,0,0,0.5);
     `;
 
     const SubTitle = styled.p`
         font-size: 32px;
         font-heigth: bold;
-        text-shadow 1px 1px 10px #777;
+        text-shadow 1px 1px 20px rgba(0,0,0,0.5);
         font-family: Undeka;
     `;
 

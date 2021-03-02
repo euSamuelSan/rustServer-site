@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import steam_logo from '../assets/images/steam_logo.png'
+import rustLogo_vector from '../assets/images/rustLogo_vector.png'
 
 export default function ConnectButton () {
     const Button = styled.a`
-        background: #ce422b;
+        background: #cd412b;
         border-radius: 20px;
         border: 2px solid #ce422b;
         margin: 0.5em 1em;
@@ -13,10 +13,11 @@ export default function ConnectButton () {
         display: flex;
         justify-content: center;
         align-items: center;
-        box-shadow: 1px 1px 5px #444;
+        box-shadow 1px 1px 20px rgba(0,0,0,0.5);
         font-family: Calibri;
         letter-spacing: 1px;
         font-weight: bold;
+        text-decoration: none
     `;
 
     const Image = styled.img`
@@ -27,7 +28,7 @@ export default function ConnectButton () {
 
     return(
         <Button href={'steam://connect/jogar.eloperdido.com.br:28015'}>
-            <Image src={steam_logo}/>
+            <Image src={rustLogo_vector}/>
             CONECTAR
         </Button>
     )

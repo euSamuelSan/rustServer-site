@@ -29,6 +29,8 @@ export default function About() {
 
     const Container = styled.div`
         padding: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     `;
 
     return (

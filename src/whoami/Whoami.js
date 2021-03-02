@@ -24,6 +24,8 @@ export default function Whoami() {
     const Container = styled.div`
         background: rgba(0, 0, 0, 0.6);
         padding: 40px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     `;
     return (
         <View style={{ backgroundImage: `url(${background2})` }}>

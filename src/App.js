@@ -14,7 +14,6 @@ import honeyComb from "./assets/images/honeyComb.png";
 
 export default function App() {
     const refs = {
-        intro: useRef(null),
         about: useRef(null),
         whoami: useRef(null),
         vip: useRef(null),
@@ -23,11 +22,19 @@ export default function App() {
         contact: useRef(null),
     };
 
-    const handleScroll = (ref) =>
-        window.scrollTo({
-            top: ref.current.offsetTop,
-            behavior: "smooth",
-        });
+    const handleScroll = (ref) => {
+        if (ref === "top") {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth",
+            });
+        } else {
+            window.scrollTo({
+                top: ref.current.offsetTop,
+                behavior: "smooth",
+            });
+        }
+    };
 
     const Container = styled.div`
         padding: 30px;
@@ -41,9 +48,7 @@ export default function App() {
     return (
         <div>
             <Header handleOnClick={handleScroll} refs={refs} />
-            <div ref={refs.intro}>
-                <Intro />
-            </div>
+            <Intro />
             <Container style={{ backgroundImage: `url(${honeyComb})` }}>
                 <View>
                     <div ref={refs.about}>

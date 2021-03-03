@@ -3,6 +3,8 @@ import styled from "styled-components";
 import rustLogo from "../assets/images/rustLogo.png";
 import facepunch_logo from "../assets/images/facepunch_logo.svg";
 
+import "./button.css";
+
 export default function Header({ handleOnClick, refs }) {
     const View = styled.header`
         display: flex;
@@ -19,19 +21,6 @@ export default function Header({ handleOnClick, refs }) {
         top: 0px;
     `;
 
-    const Button = styled.button`
-        border-top: 0px;
-        border-left: 0px;
-        border-right: 0px;
-        border-bottom: 0px;
-        background: #353535;
-        color: white;
-        padding: 20px;
-        padding-right: 30px;
-        padding-left: 30px;
-        margin-left: 10px;
-    `;
-
     const ImageContainer = styled.div`
         margin-right: auto;
     `;
@@ -43,20 +32,46 @@ export default function Header({ handleOnClick, refs }) {
 
     return (
         <View>
-            <ImageContainer onClick={() => handleOnClick(refs.intro)}>
+            <ImageContainer onClick={() => handleOnClick("top")}>
                 <Image src={rustLogo} />
                 <Image src={facepunch_logo} />
             </ImageContainer>
-            <Button onClick={() => handleOnClick(refs.about)}>Sobre</Button>
-            <Button onClick={() => handleOnClick(refs.whoami)}>
+            <button
+                className={"headerButton"}
+                onClick={() => handleOnClick(refs.about)}
+            >
+                Sobre
+            </button>
+            <button
+                className={"headerButton"}
+                onClick={() => handleOnClick(refs.whoami)}
+            >
                 Quem somos
-            </Button>
-            <Button onClick={() => handleOnClick(refs.vip)}>VIP</Button>
-            <Button onClick={() => handleOnClick(refs.wipeInfo)}>
+            </button>
+            <button
+                className={"headerButton"}
+                onClick={() => handleOnClick(refs.vip)}
+            >
+                VIP
+            </button>
+            <button
+                className={"headerButton"}
+                onClick={() => handleOnClick(refs.wipeInfo)}
+            >
                 Calendário Wipe
-            </Button>
-            <Button onClick={() => handleOnClick(refs.rules)}>Regras</Button>
-            <Button onClick={() => handleOnClick(refs.contact)}>Contato</Button>
+            </button>
+            <button
+                className={"headerButton"}
+                onClick={() => handleOnClick(refs.rules)}
+            >
+                Regras
+            </button>
+            <button
+                className={"headerButton"}
+                onClick={() => handleOnClick(refs.contact)}
+            >
+                Contato
+            </button>
         </View>
     );
 }

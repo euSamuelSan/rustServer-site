@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-import background2 from "../assets/images/background2.jpg";
-
 export default function About() {
     const View = styled.div`
         justify-content: center;

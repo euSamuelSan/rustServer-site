@@ -1,0 +1,21 @@
+.headerButton {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    background: #353535;
+    color: white;
+    padding: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 10px;
+}
+
+.headerButton:hover {
+    background: #ce422b;
+    cursor: pointer;
+}
+
+.headerButton:focus {
+    outline: none;
+}

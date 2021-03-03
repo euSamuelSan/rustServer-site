@@ -105,11 +105,11 @@
     background-color: #666666;
 }
 .react-calendar__tile--now {
-    background: #544d47;
+    background: #2fa019;
 }
 .react-calendar__tile--now:enabled:hover,
 .react-calendar__tile--now:enabled:focus {
-    background: #a02b19;
+    background: #1e6110;
 }
 .react-calendar__tile--hasActive {
     background: #757575;
@@ -130,14 +130,11 @@
     background-color: #e6e6e6;
 }
 
-.forcedWipe {
-    background: #ed3f25;
-}
-
 .mapWipe {
     background: #ed3f25;
 }
 
-.fullWipe {
-    background: #ed3f25;
+.mapWipe:enabled:hover,
+.mapWipe:enabled:focus {
+    background: #9e2a18;
 }

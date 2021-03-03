@@ -36,8 +36,7 @@ export default function Whoami() {
                     <br />
                     jogador de rust nas horas vagas. O nome Elo Perdido vem de{" "}
                     <br />
-                    um antigo servidor 'semi-vanilla' que eu jogava muito, mas{" "}
-                    <br />
+                    um antigo servidor vanilla que eu jogava muito, mas <br />
                     que veio a ser desligado. Então decidi fazer um eu mesmo!{" "}
                     <br />
                     fiz este servidor pensando em um game que seja igual para

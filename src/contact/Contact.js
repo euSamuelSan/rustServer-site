@@ -33,31 +33,21 @@ export default function Contact() {
             <Container>
                 <Title>Contato</Title>
                 <Text>Email: contato@eloperdido.com.br</Text>
-                <Text>Discord: Samuel San #3378</Text>
                 <Href
                     target={"_blank"}
                     rel={"noreferrer"}
-                    href="https://www.linkedin.com/in/samuel-san-juan/"
+                    href="https://discord.eloperdido.com.br"
                 >
-                    LinkedIn
+                    Discord
                 </Href>
-                <br />
+                <br/>
                 <Href
                     target={"_blank"}
                     rel={"noreferrer"}
-                    href="https://github.com/euSamuelSan"
+                    href="https://www.facebook.com/rusteloperdido"
                 >
-                    GitHub
+                    Facebook
                 </Href>
-                <br />
-                <Href
-                    target={"_blank"}
-                    rel={"noreferrer"}
-                    href="https://twitter.com/euSamuelSan"
-                >
-                    Twitter
-                </Href>
-                <br />
             </Container>
         </View>
     );

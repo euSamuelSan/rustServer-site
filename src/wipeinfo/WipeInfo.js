@@ -50,7 +50,7 @@ export default function WipeInfo() {
                         devido às atualizações do Rust
                     </Text>
                 </TextContainer>
-                <Subtitle>Próximo Wipe: 04/03/2021 18:00h (FULL)</Subtitle>
+                <Subtitle>Próximo Wipe: 19/03/2021 18:00h (FULL)</Subtitle>
                 <Calendar
                     minDetail={"month"}
                     tileClassName={({ date, view }) => WipeDates(date, view)}

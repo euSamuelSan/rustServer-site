@@ -5,8 +5,7 @@ export default function getWipeDates(date, view) {
     //Primeira quinta de cada mês
     //Inserir as datas no formato DD/MM/AAAA
     const wipeDates = [
-        "4/03/2021", //FORÇADO
-        "12/03/2021", //MAPA
+        "13/03/2021", //MAPA
         "19/03/2021", //FULL
         "26/03/2021", //MAPA
         "2/04/2021", //FULL

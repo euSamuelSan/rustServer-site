@@ -32,6 +32,16 @@ export default function Rules() {
         <View>
             <Title>Regras</Title>
             <TextContainer>
+                <Subtitle style={{ textAlign: "right" }}>
+                    Informações do servidor
+                </Subtitle>
+                <Text>
+                    -Máximo de 6 pessoas por grupo
+                    -Alianças não são permitidas
+                    -Administrador não joga, não insistam.
+                </Text>
+            </TextContainer>
+            <TextContainer>
                 <Subtitle style={{ textAlign: "left" }}>
                     Para mantermos uma comunidade saudável, precisamos de
                     algumas regras para isso
@@ -49,6 +59,8 @@ export default function Rules() {
                     <br />
                     -Placas com nome ou conteúdo ofensivos e/ou explícito serão
                     removidas
+                    <br/>
+                    -A prática de Meta Gaming não é tolerada. Caso ocorra o praticante será banido.
                 </Text>
             </TextContainer>
             <TextContainer>

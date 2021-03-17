@@ -32,16 +32,11 @@ export default function Whoami() {
             <Container>
                 <Title>Quem somos</Title>
                 <TextWhoami>
-                    Meu meu nome é Samuel, sou desenvolvedor de software e{" "}
-                    <br />
-                    jogador de rust nas horas vagas. O nome Elo Perdido vem de{" "}
-                    <br />
-                    um antigo servidor vanilla que eu jogava muito, mas <br />
-                    que veio a ser desligado. Então decidi fazer um eu mesmo!{" "}
-                    <br />
-                    fiz este servidor pensando em um game que seja igual para
-                    todos <br />
-                    sem dar vantagem para ninguém, sem ser pay-to-win.
+                    O grupo Elo Perdido retorna as suas atividades!<br/>
+                    Após diversas considerações, vimos que a comunidade <br/>
+                    precisava novamente de um servidor Vanilla que não desse<br/>
+                    vantagem para nenhum jogador. Por isso, ressurgimos com<br/>
+                    uma nova proposta de servidor, Full Vanilla.
                 </TextWhoami>
             </Container>
         </View>

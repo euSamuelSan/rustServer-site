@@ -61,7 +61,7 @@ export default function Intro() {
                 <ConnectButton />
                 <DiscordButton />
             </ButtonsContainer>
-            <Text>client.connect eloperdido.com.br:28015</Text>
+            <Text>client.connect jogar.eloperdido.com.br:28015</Text>
         </View>
     );
 }
